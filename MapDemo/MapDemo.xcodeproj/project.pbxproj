@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0355FA1E8A5BAB00C6F87E /* FJAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0355F91E8A5BAB00C6F87E /* FJAnnotationView.m */; };
+		0B0355FB1E8A5BAB00C6F87E /* FJAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0355F91E8A5BAB00C6F87E /* FJAnnotationView.m */; };
+		0B0355FC1E8A5BAB00C6F87E /* FJAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0355F91E8A5BAB00C6F87E /* FJAnnotationView.m */; };
+		0B0355FF1E8A5C7000C6F87E /* FJAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0355FE1E8A5C7000C6F87E /* FJAnnotation.m */; };
+		0B0356001E8A5C7000C6F87E /* FJAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0355FE1E8A5C7000C6F87E /* FJAnnotation.m */; };
+		0B0356011E8A5C7000C6F87E /* FJAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0355FE1E8A5C7000C6F87E /* FJAnnotation.m */; };
 		0BBFA1F61E89EE09002BE779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA1F51E89EE09002BE779 /* main.m */; };
 		0BBFA1F91E89EE09002BE779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA1F81E89EE09002BE779 /* AppDelegate.m */; };
 		0BBFA1FC1E89EE09002BE779 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA1FB1E89EE09002BE779 /* ViewController.m */; };
@@ -16,6 +22,9 @@
 		0BBFA2071E89EE09002BE779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFA2051E89EE09002BE779 /* LaunchScreen.storyboard */; };
 		0BBFA2121E89EE0A002BE779 /* MapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA2111E89EE0A002BE779 /* MapDemoTests.m */; };
 		0BBFA21D1E89EE0A002BE779 /* MapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA21C1E89EE0A002BE779 /* MapDemoUITests.m */; };
+		0BBFA22B1E89FD1F002BE779 /* LocationGPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFA22A1E89FD1F002BE779 /* LocationGPX.gpx */; };
+		0BBFA22C1E89FD1F002BE779 /* LocationGPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFA22A1E89FD1F002BE779 /* LocationGPX.gpx */; };
+		0BBFA22D1E89FD1F002BE779 /* LocationGPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0BBFA22A1E89FD1F002BE779 /* LocationGPX.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0355F81E8A5BAB00C6F87E /* FJAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAnnotationView.h; sourceTree = "<group>"; };
+		0B0355F91E8A5BAB00C6F87E /* FJAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAnnotationView.m; sourceTree = "<group>"; };
+		0B0355FD1E8A5C7000C6F87E /* FJAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAnnotation.h; sourceTree = "<group>"; };
+		0B0355FE1E8A5C7000C6F87E /* FJAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAnnotation.m; sourceTree = "<group>"; };
 		0BBFA1F11E89EE09002BE779 /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBFA1F51E89EE09002BE779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BBFA1F71E89EE09002BE779 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +66,7 @@
 		0BBFA2181E89EE0A002BE779 /* MapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBFA21C1E89EE0A002BE779 /* MapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDemoUITests.m; sourceTree = "<group>"; };
 		0BBFA21E1E89EE0A002BE779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBFA22A1E89FD1F002BE779 /* LocationGPX.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LocationGPX.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 		0BBFA1E81E89EE09002BE779 = {
 			isa = PBXGroup;
 			children = (
+				0BBFA22A1E89FD1F002BE779 /* LocationGPX.gpx */,
 				0BBFA1F31E89EE09002BE779 /* MapDemo */,
 				0BBFA2101E89EE0A002BE779 /* MapDemoTests */,
 				0BBFA21B1E89EE0A002BE779 /* MapDemoUITests */,
@@ -113,6 +128,10 @@
 				0BBFA2081E89EE09002BE779 /* Info.plist */,
 				0BBFA2001E89EE09002BE779 /* MapDemo.xcdatamodeld */,
 				0BBFA1F41E89EE09002BE779 /* Supporting Files */,
+				0B0355F81E8A5BAB00C6F87E /* FJAnnotationView.h */,
+				0B0355F91E8A5BAB00C6F87E /* FJAnnotationView.m */,
+				0B0355FD1E8A5C7000C6F87E /* FJAnnotation.h */,
+				0B0355FE1E8A5C7000C6F87E /* FJAnnotation.m */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -252,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBFA22B1E89FD1F002BE779 /* LocationGPX.gpx in Resources */,
 				0BBFA2071E89EE09002BE779 /* LaunchScreen.storyboard in Resources */,
 				0BBFA2041E89EE09002BE779 /* Assets.xcassets in Resources */,
 				0BBFA1FF1E89EE09002BE779 /* Main.storyboard in Resources */,
@@ -262,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBFA22C1E89FD1F002BE779 /* LocationGPX.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBFA22D1E89FD1F002BE779 /* LocationGPX.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +303,8 @@
 			files = (
 				0BBFA1FC1E89EE09002BE779 /* ViewController.m in Sources */,
 				0BBFA1F91E89EE09002BE779 /* AppDelegate.m in Sources */,
+				0B0355FF1E8A5C7000C6F87E /* FJAnnotation.m in Sources */,
+				0B0355FA1E8A5BAB00C6F87E /* FJAnnotationView.m in Sources */,
 				0BBFA1F61E89EE09002BE779 /* main.m in Sources */,
 				0BBFA2021E89EE09002BE779 /* MapDemo.xcdatamodeld in Sources */,
 			);
@@ -291,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BBFA2121E89EE0A002BE779 /* MapDemoTests.m in Sources */,
+				0B0355FB1E8A5BAB00C6F87E /* FJAnnotationView.m in Sources */,
+				0B0356001E8A5C7000C6F87E /* FJAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BBFA21D1E89EE0A002BE779 /* MapDemoUITests.m in Sources */,
+				0B0355FC1E8A5BAB00C6F87E /* FJAnnotationView.m in Sources */,
+				0B0356011E8A5C7000C6F87E /* FJAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +548,7 @@
 				0BBFA2231E89EE0A002BE779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBFA2241E89EE0A002BE779 /* Build configuration list for PBXNativeTarget "MapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +557,7 @@
 				0BBFA2261E89EE0A002BE779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBFA2271E89EE0A002BE779 /* Build configuration list for PBXNativeTarget "MapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +566,7 @@
 				0BBFA2291E89EE0A002BE779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
