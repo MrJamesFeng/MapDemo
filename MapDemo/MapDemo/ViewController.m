@@ -133,7 +133,12 @@
     FJAnnotation *annotation = [[FJAnnotation alloc]init];
     annotation.coordinate = location.coordinate;
     //[annotation setCoordinate:location.coordinate];
-    //[self.mapView addAnnotation:annotation];
+    MKPointAnnotation *pointAnnotation = [[MKPointAnnotation alloc]init];
+    pointAnnotation.coordinate = location.coordinate;
+    pointAnnotation.title = @"xxxx";
+    pointAnnotation.subtitle = @"ooooo";
+    [self.mapView addAnnotation:annotation];
+//    [self.mapView addAnnotation:pointAnnotation];
 }
 -(void)locationManagerDidPauseLocationUpdates:(CLLocationManager *)manager{
     

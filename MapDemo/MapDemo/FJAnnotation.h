@@ -6,13 +6,13 @@
 //  Copyright © 2017年 LDY. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-@import MapKit;
+#import <MapKit/MKFoundation.h>
+#import <MapKit/MKAnnotation.h>
 @interface FJAnnotation : NSObject<MKAnnotation>
 
-@property(nonatomic,copy)NSString *latitude;
-
-@property(nonatomic,copy)NSString *longitude;
+@property (nonatomic, copy, nullable) NSString *title;
+@property (nonatomic, copy, nullable) NSString *subtitle;
+@property(nonatomic,assign)CLLocationCoordinate2D coordinate;
 
 
 @end

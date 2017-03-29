@@ -16,10 +16,10 @@
     return coordinate;
 }
 
--(void)setCoordinate:(CLLocationCoordinate2D)newCoordinate{
-    [self setValue:@(newCoordinate.latitude) forKeyPath:@"latitude"];
-    [self setValue:@(newCoordinate.longitude) forKeyPath:@"longitude"];
-}
+//-(void)setCoordinate:(CLLocationCoordinate2D)newCoordinate{
+//    [self setValue:@(newCoordinate.latitude) forKeyPath:@"latitude"];
+//    [self setValue:@(newCoordinate.longitude) forKeyPath:@"longitude"];
+//}
 
  
 
