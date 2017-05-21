@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapFactories>
+    <MapFactory type="1" name="BaiMapViewFactory" appKey="csBRnyo5QyCI3medWcwPUDhYsPSlFxDG" isOpen = "YES"/>
+    
+    <MapFactory type="2" name="GaoDeMapViewFactory" appKey="be25e10f9901d7e9f3eb1358fe6db3a6" isOpen = "YES"/>
+    
+    <MapFactory type="3" name="GoogleMapViewFactory" appKey="AIzaSyAosXA1nj59xwl1LfL94GaVTcY4PCrqBeM" isOpen = "YES"/>
+        
+</MapFactories>

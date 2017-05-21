@@ -76,10 +76,13 @@
         if (error) {
             NSLog(@"error description%@",[error description]);
         }else{
-            MKRoute *firstRoute = response.routes.firstObject;
-            for (MKRouteStep * routeStep in firstRoute.steps) {
-                NSLog(@"%f %@",routeStep.distance,routeStep.instructions);
+//            MKRoute *firstRoute = response.routes.firstObject;
+            for (MKRoute *route in response.routes) {
+                for (MKRouteStep * routeStep in route.steps) {
+                    NSLog(@"%f %@",routeStep.distance,routeStep.instructions);
+                }
             }
+            
             
         }
     }];
